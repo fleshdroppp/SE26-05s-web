@@ -7,6 +7,10 @@ body {
     color: white;
 }
 
+a {
+    all: unset;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -55,17 +59,21 @@ header .nav_bar {
     width: 80%;
     padding: 5px 0;
     height: 30%;
-
     top: 65%;
 }
 
 .header_nav_bar_item {
+    display: block;
     font-size: xx-large;
     height: 50%;
     width: 20%;
     background: #A9BF04;
     padding: 5px 0 10px 0;
     text-align: center;
+}
+
+.header_nav_bar_item:hover {
+    background: #7D8C8B;
 }
 
 main {
@@ -668,4 +676,14 @@ footer {
 
 .table-row:nth-child(even) .table-cell {
     background-color: #7D8C8B;
+}
+
+
+.load_time_block {
+    margin-bottom: 10px;
+    color: black;
+}
+
+a.active {
+    text-decoration: underline white;
 }
