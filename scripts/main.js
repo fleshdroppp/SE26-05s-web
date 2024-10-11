@@ -9,13 +9,10 @@ window.addEventListener('load', () => {
 
     let currentLocation = window.location.pathname.split('/').at(-1);
     console.log(currentLocation)
-    // Получаем все ссылки в меню
     let menuItems = document.querySelectorAll('.header_nav_bar_item');
 
-    console.log(menuItems)
+
     menuItems.forEach(function(item) {
-        console.log(item)
-        // Если href ссылки совпадает с текущим URL, добавляем класс 'active'
         if (item.getAttribute('href') === currentLocation) {
             item.classList.add('active');
         }
