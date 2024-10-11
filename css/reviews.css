@@ -1,0 +1,93 @@
+.main_reviews_page {
+    margin-top: 15px;
+    background: #93A603;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.main_reviews_page h2, h3 {
+    background: #5A7302;
+    padding: 10px;
+    text-align: center;
+    width: 28%;
+}
+
+.main_reviews_page {
+    height: fit-content;
+}
+
+.main_reviews_page_form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: #D6D98B;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.main_reviews_form_block {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #5A7302;
+}
+
+.main_reviews_form_block input {
+    width: 60%;
+}
+
+.main_reviews_form_block textarea {
+    width: 80%;
+}
+
+.main_reviews_form_block select {
+    width: 40%;
+}
+
+.main_reviews_list {
+    display: flex;
+    background: #D6D98B;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+}
+
+.main_reviews_list_item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: #7D8C8B;
+}
+
+.main_reviews_list_item h4, .rating {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.name {
+    align-self: center;
+    padding: 5px;
+    background: #A9BF04;
+}
+
+.rating, .review_text {
+    background: #A9BF04;
+    padding: 5px;
+}
+
+.review_text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
