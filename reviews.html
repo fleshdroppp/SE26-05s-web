@@ -13,13 +13,14 @@
           rel="stylesheet">
     <script src="scripts/main.js"></script>
     <script src="scripts/reviews.js"></script>
+    <script src="scripts/fetch_comments.js"></script>
     <title>Болты и Гайки</title>
 </head>
 <body>
 <header>
     <div class="header_top">
         <img class="header_logo" src="images/logo.png" alt="logo">
-        <a href="/"><h1 class="header_title text_shadow">Болты и Гайки</h1></a>
+        <a href="/SE26-05s-web/"><h1 class="header_title text_shadow">Болты и Гайки</h1></a>
     </div>
     <nav class="nav_bar">
         <a class="header_nav_bar_item text_shadow" href="favourite.html">Избранное</a>
@@ -28,7 +29,9 @@
         <a class="header_nav_bar_item text_shadow" href="reviews.html">Отзывы</a>
     </nav>
 </header>
+
 <main>
+    <div class="loader"></div>
     <div class="main_reviews_page">
         <h2>Отзывы</h2>
         <div class="main_reviews_list text_shadow"></div>

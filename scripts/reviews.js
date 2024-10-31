@@ -40,7 +40,7 @@ function addReview(reviewToAdd) {
     reviewBlock.classList.add("main_reviews_list_item")
 
     reviewBlock.innerHTML = `
-                    <h4 class="name">${name} (${reviewToAdd.email})</h4>
+                    <h4 class="name">${reviewToAdd.name} (${reviewToAdd.email})</h4>
                     <p class="rating"><b>Оценка: ${reviewToAdd.rating}/5</b></p>
                     <p class="review_text">${reviewToAdd.text}</p>
             `;
