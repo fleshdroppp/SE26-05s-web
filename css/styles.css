@@ -687,3 +687,21 @@ footer {
 a.active {
     text-decoration: underline white;
 }
+
+.swiper {
+    width: 1000px;
+    height: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #5A7302 !important;
+}
+
+.swiper-pagination-bullet-active {
+    color: #5A7302 !important;
+}
+
+.main_catalog_items {
+    width: 85%;
+    margin: 0 auto 40px;
+}
